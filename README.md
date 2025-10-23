@@ -47,13 +47,13 @@ The goal is to perform **data cleaning**, **exploration**, and generate **busine
 
 Here are a few example queries from the project:
 
-### 🔹 1. Top 10 Best-Value Products
+### 🔹 1. Top 10 best-value products based on discount perce
 ![Best Value Query](assets/query1_best_value.png)
 
 ### 🔹 2. Estimate Revenue by Category
 ![Revenue Query](assets/query2_revenue.png)
 
-### 🔹 3. High MRP Out-of-Stock Products
+### 🔹 3.Products with high MRP but out of stock.
 ![High MRP Query](assets/query3_high_mrp.png)
 
 ---
