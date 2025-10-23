@@ -49,17 +49,17 @@ Here are a few example queries from the project:
 
 ### 🔹 1. Top 10 Best-Value Products Based on Discount Percentage
 <p align="center">
-  <img src="assets/top_10.png" alt="Best Value Query" width="600">
+  <img src="Assets/top_10.png" alt="Best Value Query" width="300">
 </p>
 
 ### 🔹 2. Estimate Revenue by Category
 <p align="center">
-  <img src="assets/revenue.png" alt="Revenue Query" width="600">
+  <img src="Assets/revenue.png" alt="Revenue Query" width="300">
 </p>
 
 ### 🔹 3. Products with High MRP but Out of Stock
 <p align="center">
-  <img src="assets/high.png" alt="High MRP Query" width="600">
+  <img src="Assets/high.png" alt="High MRP Query" width="300">
 </p>
 
 
