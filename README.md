@@ -1,7 +1,6 @@
-# Zepto-Sales-Analysis-SQL-Project
+# 🛒 Zepto-Sales-Analysis-SQL-Project
 Analyze Zepto’s product data using SQL to uncover pricing and inventory insights.
-
-# 🛒 Zepto Sales Analysis SQL Project
+--
 
 This project explores and analyzes product data from **Zepto**, an e-commerce platform, using **MySQL**.  
 The goal is to perform **data cleaning**, **exploration**, and generate **business insights** such as best-value products, stock analysis, and revenue by category.
@@ -44,14 +43,24 @@ The goal is to perform **data cleaning**, **exploration**, and generate **busine
 
 
 ---
+## 📸 SQL Query Snapshots
 
-## 📊 Sample Queries
+Here are a few example queries from the project:
 
-```sql
--- Q1. Top 10 best-value products based on discount percentage
-SELECT DISTINCT
-    name, mrp, discountpercent
-FROM
-    zepto
-ORDER BY discountpercent DESC
-LIMIT 10;
+### 🔹 1. Top 10 Best-Value Products
+![Best Value Query](assets/query1_best_value.png)
+
+### 🔹 2. Estimate Revenue by Category
+![Revenue Query](assets/query2_revenue.png)
+
+### 🔹 3. High MRP Out-of-Stock Products
+![High MRP Query](assets/query3_high_mrp.png)
+
+---
+
+## ✍️ Author  
+🧑‍💻 **Shahid Ali**  
+🎯 *Aspiring Data Analyst | SQL | Excel | Power BI | MySQL | Python*  
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/shahid-ali-6556b337b)
+
+
