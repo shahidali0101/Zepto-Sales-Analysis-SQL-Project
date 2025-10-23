@@ -29,11 +29,29 @@ The goal is to perform **data cleaning**, **exploration**, and generate **busine
 
 ## 🚀 Key Insights
 
-- Found **top 10 best-value products** based on discount percentage.  
-- Identified **high MRP but out-of-stock** products.  
-- Estimated **total revenue** per category.  
-- Grouped products into **Low, Medium, and Bulk** weight categories.  
-- Calculated **price per gram** for value comparison.  
+# Product Analysis Dashboard
+
+This project analyzes product data to uncover key insights about discounts, revenue, stock, and value for money.  
+
+## Key Findings
+
+- **Top 10 Best-Value Products:** Identified based on discount percentage.  
+- **High MRP but Out-of-Stock Products:** Highlighting premium items often unavailable.  
+- **Revenue Estimation:** Total revenue calculated per category.  
+- **Weight-Based Grouping:** Products categorized into Low, Medium, and Bulk weight groups.  
+- **Price per Gram Analysis:** Calculated for better value comparison.  
+
+| Area               | Finding                                                        |
+| ------------------ | -------------------------------------------------------------- |
+| 🔝 Best Discounts  | Some products have discounts > 50%, ideal for marketing offers |
+| 💰 High Revenue    | Top 3 categories contribute ~70% of total revenue              |
+| 🚫 Out of Stock    | Premium items often unavailable—indicating supply constraints  |
+| ⚖️ Value for Money | Products with lowest price/gram offer the best cost efficiency |
+| 🧩 Inventory       | Heavy categories dominate stock volume                         |
+
+---
+
+
 
 ---
 
