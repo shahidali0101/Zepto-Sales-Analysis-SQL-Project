@@ -47,14 +47,21 @@ The goal is to perform **data cleaning**, **exploration**, and generate **busine
 
 Here are a few example queries from the project:
 
-### 🔹 1. Top 10 best-value products based on discount perce
-![Best Value Query](Asstes/top 10.png)
+### 🔹 1. Top 10 Best-Value Products Based on Discount Percentage
+<p align="center">
+  <img src="assets/top_10.png" alt="Best Value Query" width="600">
+</p>
 
 ### 🔹 2. Estimate Revenue by Category
-![Revenue Query](Asstes/revenue.png)
+<p align="center">
+  <img src="assets/revenue.png" alt="Revenue Query" width="600">
+</p>
 
-### 🔹 3.Products with high MRP but out of stock.
-![High MRP Query](Asstes/high.png)
+### 🔹 3. Products with High MRP but Out of Stock
+<p align="center">
+  <img src="assets/high.png" alt="High MRP Query" width="600">
+</p>
+
 
 ---
 
