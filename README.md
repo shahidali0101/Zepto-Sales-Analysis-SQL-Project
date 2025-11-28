@@ -80,8 +80,7 @@ Here are a few example queries from the project:
   <img src="Assets/high.png" alt="High MRP Query" width="300">
 </p>
 
-
----
+--- 
 
 ## ✍️ Author  
 🧑‍💻 **Shahid Ali**  
