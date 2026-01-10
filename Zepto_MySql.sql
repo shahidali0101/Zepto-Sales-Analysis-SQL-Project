@@ -7,7 +7,7 @@ ALTER TABLE zepto
 ADD COLUMN sku_id INT AUTO_INCREMENT PRIMARY KEY FIRST;
 
 
--- ----------------------------
+-- ---------------------------- 
 -- 🧭 Data Exploration
 -- ----------------------------
 
