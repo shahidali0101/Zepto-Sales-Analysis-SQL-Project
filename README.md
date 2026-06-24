@@ -1,90 +1,178 @@
-# 🛒 Zepto-Sales-Analysis-SQL-Project
-Analyze Zepto’s product data using SQL to uncover pricing and inventory insights.
---
+# 🛒 Zepto Sales Analysis Using SQL
 
-This project explores and analyzes product data from **Zepto**, an e-commerce platform, using **MySQL**.  
-The goal is to perform **data cleaning**, **exploration**, and generate **business insights** such as best-value products, stock analysis, and revenue by category.
+Analyze Zepto's product data using SQL to uncover pricing trends, discount strategies, inventory patterns, and category-level revenue insights.
+
+---
+
+## 📌 Project Overview
+
+This project performs end-to-end analysis of Zepto's product dataset using **MySQL**. The workflow includes:
+
+* Data Exploration
+* Data Cleaning
+* Descriptive Analysis
+* Business Analysis
+* Advanced SQL Analysis
+
+The objective is to generate actionable business insights related to pricing, discounts, inventory management, and revenue performance.
+
+---
+
+## 📊 Dataset Overview
+
+The dataset contains product-level information from Zepto, including:
+
+* Product Name
+* Category
+* MRP
+* Discounted Selling Price
+* Discount Percentage
+* Available Quantity
+* Product Weight
+* Stock Availability
 
 ---
 
 ## 📂 Project Structure
 
-- `zepto_sql_project.sql` → All SQL queries (exploration, cleaning, and analysis)
-- `Zepto_SQL_Project_Report.pdf` → Final report with queries & explanations
-- `dataset/zepto.csv` → Raw dataset used for the project
+```text
+Zepto-Sales-Analysis-SQL-Project/
+│
+├── zepto_sql_project.sql
+├── dataset/
+│   └── zepto.csv
+│
+├── Assets/
+│   ├── top_10.png
+│   ├── revenue.png
+│   └── high.png
+│
+└── README.md
+```
 
 ---
 
 ## 🧮 SQL Concepts Used
 
-- Data Exploration  
-- Data Cleaning  
-- Aggregation (SUM, AVG, COUNT)  
-- Filtering (WHERE, HAVING)  
-- Grouping (GROUP BY)  
-- Sorting & Ranking  
-- Case Statements  
+* Data Exploration
+* Data Cleaning
+* Aggregate Functions (SUM, AVG, COUNT)
+* Filtering (WHERE, HAVING)
+* GROUP BY & ORDER BY
+* CASE Statements
+* Common Table Expressions (CTEs)
+* Window Functions
+
+  * DENSE_RANK()
+  * ROW_NUMBER()
+  * SUM() OVER()
+* Revenue Analysis
+* Inventory Analysis
+* Product Segmentation
+
+---
+
+## 🔍 Analysis Performed
+
+### Data Exploration
+
+* Total records analysis
+* Missing value checks
+* Duplicate product identification
+* Category exploration
+* Stock availability analysis
+
+### Data Cleaning
+
+* Removed invalid records
+* Converted paise values into rupees
+* Validated product pricing information
+
+### Business Analysis
+
+* Top discounted products
+* Revenue estimation by category
+* High-value out-of-stock products
+* Category-wise discount analysis
+* Price-per-gram analysis
+* Inventory weight analysis
+
+### Advanced SQL Analysis
+
+* Revenue contribution percentage by category
+* Top 3 most expensive products per category
+* Most discounted products by category
+* Stock-out risk analysis
+* Product price segmentation
 
 ---
 
 ## 🚀 Key Insights
 
-# Product Analysis Dashboard
-
-This project analyzes product data to uncover key insights about discounts, revenue, stock, and value for money.  
-
-## Key Findings
-
-- **Top 10 Best-Value Products:** Identified based on discount percentage.  
-- **High MRP but Out-of-Stock Products:** Highlighting premium items often unavailable.  
-- **Revenue Estimation:** Total revenue calculated per category.  
-- **Weight-Based Grouping:** Products categorized into Low, Medium, and Bulk weight groups.  
-- **Price per Gram Analysis:** Calculated for better value comparison.  
-
-| Area               | Finding                                                        |
-| ------------------ | -------------------------------------------------------------- |
-| 🔝 Best Discounts  | Some products have discounts > 50%, ideal for marketing offers |
-| 💰 High Revenue    | Top 3 categories contribute ~70% of total revenue              |
-| 🚫 Out of Stock    | Premium items often unavailable—indicating supply constraints  |
-| ⚖️ Value for Money | Products with lowest price/gram offer the best cost efficiency |
-| 🧩 Inventory       | Heavy categories dominate stock volume                         |
+| Area                      | Insight                                                                          |
+| ------------------------- | -------------------------------------------------------------------------------- |
+| 💰 Revenue Analysis       | A few categories contribute the majority of estimated revenue                    |
+| 🔝 Discount Strategy      | Several products offer significant discounts, creating promotional opportunities |
+| 🚫 Stock Availability     | Multiple high-value products are frequently out of stock                         |
+| ⚖️ Value Analysis         | Price-per-gram calculations identify the best-value products                     |
+| 📦 Inventory Distribution | Inventory is concentrated in specific categories                                 |
+| 🎯 Product Segmentation   | Products can be grouped into Budget, Mid-Range, and Premium segments             |
 
 ---
 
+## 🎯 Business Value
 
+This analysis helps businesses:
+
+* Identify high-performing categories
+* Monitor inventory shortages
+* Optimize pricing strategies
+* Evaluate discount effectiveness
+* Improve stock planning
+* Understand category-level revenue contribution
 
 ---
 
-## 🧰 Tools Used
-- **MySQL** (Querying & Analysis)
-- **Excel / CSV** (Data Preparation)
-
-
----
 ## 📸 SQL Query Snapshots
 
-Here are a few example queries from the project:
+### 1️⃣ Top 10 Best-Value Products Based on Discount Percentage
 
-### 🔹 1. Top 10 Best-Value Products Based on Discount Percentage
 <p align="center">
-  <img src="Assets/top_10.png" alt="Best Value Query" width="300">
+  <img src="Assets/top_10.png" alt="Top Discount Products" width="700">
 </p>
 
-### 🔹 2. Estimate Revenue by Category
+### 2️⃣ Estimated Revenue by Category
+
 <p align="center">
-  <img src="Assets/revenue.png" alt="Revenue Query" width="300">
+  <img src="Assets/revenue.png" alt="Revenue Analysis" width="700">
 </p>
 
-### 🔹 3. Products with High MRP but Out of Stock
+### 3️⃣ High MRP Products Currently Out of Stock
+
 <p align="center">
-  <img src="Assets/high.png" alt="High MRP Query" width="300">
+  <img src="Assets/high.png" alt="Out of Stock Analysis" width="700">
 </p>
 
---- 
+---
 
-## ✍️ Author  
-🧑‍💻 **Shahid Ali**  
-🎯 *Aspiring Data Analyst | SQL | Excel | Power BI | MySQL | Python*  
-🔗 [LinkedIn Profile](https://www.linkedin.com/in/shahid-ali-6556b337b)
+## 🛠️ Tools Used
 
+* MySQL
+* Excel
+* CSV Dataset
 
+---
+
+## 👨‍💻 Author
+
+**Shahid Ali**
+
+Aspiring Data Analyst skilled in SQL, Excel, Power BI, Python, Pandas, and Data Visualization.
+
+### Connect With Me
+
+LinkedIn: https://www.linkedin.com/in/shahid-ali-6556b337b
+
+---
+
+⭐ If you found this project useful, consider giving it a star.
